@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 var React = require('react');
 var mui = require('material-ui');
@@ -27,7 +27,11 @@ var Compute_ElasticLoadBalancing_ELLoadBalancer = React.createClass({
 });
 
 module.exports = Compute_ElasticLoadBalancing_ELLoadBalancer;
-/*
+*/
+
+import React from 'react';
+import SvgIcon from 'material-ui/SvgIcon';
+
 let Compute_ElasticLoadBalancing_ELLoadBalancer = (props) => (
 	<SvgIcon {...props}>
 
@@ -42,4 +46,3 @@ Compute_ElasticLoadBalancing_ELLoadBalancer.displayName = 'ActionHome';
 Compute_ElasticLoadBalancing_ELLoadBalancer.muiName = 'SvgIcon';
 
 module.exports = Compute_ElasticLoadBalancing_ELLoadBalancer;
-*/
