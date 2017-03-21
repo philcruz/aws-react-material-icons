@@ -1,9 +1,8 @@
-'use strict';
-var React = require('react');
-var  mui  = require('material-ui');
-var SvgIcon = mui.SvgIcon;
 
-class Compute_ElasticLoadBalancing_ELLoadBalancer extends React.Component {
+import React, { Component } from 'react';
+import mui, {SvgIcon} from 'material-ui';
+
+export default class Compute_ElasticLoadBalancing_ELLoadBalancer extends Component {
 	constructor() {
 		super();
 	}
@@ -19,8 +18,8 @@ class Compute_ElasticLoadBalancing_ELLoadBalancer extends React.Component {
 }
 
 Compute_ElasticLoadBalancing_ELLoadBalancer.displayName = 'Compute_ElasticLoadBalancing_ELLoadBalancer';
-Compute_ElasticLoadBalancing_ELLoadBalancer.muiName = 'SvgIcon';
+Compute_ElasticLoadBalancing_ELLoadBalancer.muiName = 'Compute_ElasticLoadBalancing_ELLoadBalancer';
 
-module.exports = Compute_ElasticLoadBalancing_ELLoadBalancer;
+
 
 
