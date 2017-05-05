@@ -17,4 +17,9 @@ A set of React/Material-UI icons for [AWS Simple Icons](https://aws.amazon.com/a
 npm i aws-react-material-icons --save
 ```
 
+## Build/compile
+```sh
+npm run build
+```
+
 
